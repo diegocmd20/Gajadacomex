@@ -26,8 +26,14 @@ export default {
     return {
       scrolledNav: false,
       scrollTop: false,
-      serviciosPrincipales: [],
-      serviciosCompletos: [],
+      serviciosPrincipales: [
+        { id: 1, titulo: 'Consultoría', descripcion: 'Soluciones a medida' },
+        { id: 2, titulo: 'Soporte Técnico', descripcion: 'Asistencia 24/7' }
+      ],
+      serviciosCompletos: [
+        { id: 1, titulo: 'Consultoría', descripcion: 'Análisis detallado para mejorar procesos.' },
+        { id: 2, titulo: 'Soporte Técnico', descripcion: 'Servicio técnico especializado y rápido.' }
+      ],
       equipoTrabajo: [],
       formulario: {
         nombre: '',
