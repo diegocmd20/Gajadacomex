@@ -124,9 +124,9 @@ export default {
   <div id="app">
     <Navbar :scrolledNav="scrolledNav" />
     <Hero />
-    <ServiciosPreview :serviciosPrincipales="serviciosPrincipales" />
     <Nosotros :equipoTrabajo="equipoTrabajo" />
-    <ServiciosDetalle :serviciosCompletos="serviciosCompletos" @abrirModal="abrirModalServicio" />
+    <ServiciosPreview :serviciosPrincipales="serviciosPrincipales" />
+    <!-- <ServiciosDetalle :serviciosCompletos="serviciosCompletos" @abrirModal="abrirModalServicio" /> -->
     <Contacto @enviar="enviarFormulario" :formulario="formulario" :errores="errores" :enviando="enviando" />
     <Footer />
     <ScrollTop :scrollTop="scrollTop" @scroll-to-top="scrollToTop" />
