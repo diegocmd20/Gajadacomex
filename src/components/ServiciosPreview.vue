@@ -1,8 +1,11 @@
 <template>
     <section class="py-5" id="servicios">
         <div class="container">
-            <h2 class="mb-4 text-center">Servicios Principales</h2>
+            <h2 class="mb-4 text-center">Servicios</h2>
             <div class="row">
+                <h4 class="mb-4">Este tipo de servicio requiere un manejo continuo, bajo la entrega de información
+                    específica y detallada, con el objetivo de dar respuesta, claridad y confianza al cliente. Tales
+                    como:</h4>
                 <div v-for="(servicio, index) in serviciosPrincipales" :key="index" class="col-md-4 mb-4">
                     <div class="card h-100" data-aos="fade-up">
                         <div class="card-body">
