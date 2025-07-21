@@ -27,13 +27,14 @@ export default {
       scrolledNav: false,
       scrollTop: false,
       serviciosPrincipales: [
-        { id: 1, titulo: 'Consultoría', descripcion: 'Soluciones a medida' },
-        { id: 2, titulo: 'Soporte Técnico', descripcion: 'Asistencia 24/7' }
+        { titulo: 'Asesorías', descripcion: 'Asesórate con nosotros y toma la mejor decisión de cómo manejar el tránsito de tus productos y cargas. Lo más importante es acompañarte para que logres una compra sin contratiempos y de igual forma que te permita generar importantes negocios.' },
+        { titulo: 'Evaluación de costos cargas nacionales e internacionales', descripcion: 'Valorización de cargas entre 24 a 48 hrs., bajo información previa proporcionada por su proveedor, con la finalidad de estimar sus costos reales y tiempos de tránsito según necesidad y urgencia.' },
+        { titulo: 'Importación y Exportación', descripcion: 'Ejecución de importación y exportación de cargas según valorización previa, validando con el cliente las condiciones de compra y venta, bajo las cuales éstas serán tramitadas. Contamos con embarcadores con excelentes tarifas para el transporte de carga vía courrier, aérea, marítimo (LCL/FCL) y terrestre.' },
+        { titulo: 'Revisión de cargas en planta o dependencias del cliente', descripcion: 'Revisión física, validando estado de la carga y posibles daños, toma de fotografías, activación de seguro de ser necesario.' },
+        { titulo: 'Tramitación aduanera', descripcion: 'Internación según exigencias de aduana, para su posterior liberación y entrega en el lugar establecido.' },
+        { titulo: 'Transportes Internos', descripcion: 'Servicio de transporte interno (post tramitación aduanera) desde puerto y/o aeropuerto a su empresa y viceversa' }
       ],
-      serviciosCompletos: [
-        { id: 1, titulo: 'Consultoría', descripcion: 'Análisis detallado para mejorar procesos.' },
-        { id: 2, titulo: 'Soporte Técnico', descripcion: 'Servicio técnico especializado y rápido.' }
-      ],
+      serviciosCompletos: [],
       equipoTrabajo: [],
       formulario: {
         nombre: '',
