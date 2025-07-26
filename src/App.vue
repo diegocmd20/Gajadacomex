@@ -127,7 +127,6 @@ export default {
     <Hero />
     <Nosotros :equipoTrabajo="equipoTrabajo" />
     <ServiciosPreview :serviciosPrincipales="serviciosPrincipales" />
-    <!-- <ServiciosDetalle :serviciosCompletos="serviciosCompletos" @abrirModal="abrirModalServicio" /> -->
     <Contacto @enviar="enviarFormulario" :formulario="formulario" :errores="errores" :enviando="enviando" />
     <Footer />
     <ScrollTop :scrollTop="scrollTop" @scroll-to-top="scrollToTop" />
