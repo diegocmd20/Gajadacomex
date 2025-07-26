@@ -3,7 +3,7 @@
         <div class="container">
             <h2 class="mb-4 text-center">Conócenos</h2>
             <div class="row">
-                <h3 class="h4 mb-4">Nuestra Esencia: Trayectoria, Confianza y Soluciones Innovadoras</h3>
+                <h3 class="h4 mb-4">Trayectoria, Confianza y Soluciones Innovadoras</h3>
                 <p>En GAJADACOMEX, entendemos que el mundo del comercio internacional es complejo y dinámico. Por eso,
                     hemos nacido de la visión de un fundador con 19 años de sólida experiencia en abastecimiento y
                     operaciones logísticas. Su profundo conocimiento es la base sobre la cual construimos una asesoría
