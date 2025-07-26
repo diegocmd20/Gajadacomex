@@ -5,11 +5,11 @@
       <div class="row">
         <div class="col-md-6 text-start">
           <h4 class="mb-2 fw-bold">Ubicación</h4>
-          <p>Libertador Gral. Bernardo O´Higgins 490, Dpto. 28-A, Maipú</p>
+          <p>Luis Barros Borgoño 2630, Maipu</p>
           <h4 class="mb-2 fw-bold">Email</h4>
           <p>info@gajadacomex.cl</p>
           <h4 class="mb-2 fw-bold">Número de Contacto</h4>
-          <p>+56 9 5159 0617</p>
+          <p>+56 9 7531 9891</p>
         </div>
         <div class="col-md-6">
           <form @submit.prevent="$emit('enviar')" data-aos="fade-up">
