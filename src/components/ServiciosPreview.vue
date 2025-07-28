@@ -7,7 +7,8 @@
                 <p>Entendemos que cada operación de comercio exterior es única y requiere un manejo preciso y continuo. En GAJADACOMEX, te ofrecemos información específica y detallada en todo momento, garantizando claridad, confianza y respuesta rápida a tus necesidades.</p>
                 <div v-for="(servicio, index) in serviciosPrincipales" :key="index" class="col-md-4 mb-4">
                     <div class="card h-100" data-aos="fade-up">
-                        <div class="card-body">
+                        <div class="card-body text-center">
+                            <i :class="[servicio.icono]"></i>
                             <h5 class="card-title">{{ servicio.titulo }}</h5>
                             <p class="card-text">{{ servicio.descripcion }}</p>
                         </div>

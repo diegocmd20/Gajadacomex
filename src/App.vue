@@ -27,12 +27,12 @@ export default {
       scrolledNav: false,
       scrollTop: false,
       serviciosPrincipales: [
-        { titulo: 'Asesorías en Logística y Comercio Internacional', descripcion: 'Te guiamos para tomar las mejores decisiones en el tránsito de tus productos, asegurando operaciones sin contratiempos y el éxito de tus negocios internacionales.' },
-        { titulo: 'Evaluación de Costos de Cargas: Nacionales e Internacionales', descripcion: 'Obtén una valorización precisa de costos y tiempos de tránsito para tus cargas nacionales e internacionales en 24-48 horas.' },
-        { titulo: 'Gestión Integral de Importación y Exportación', descripcion: 'Ejecutamos tus operaciones de importación y exportación con tarifas competitivas para transporte de carga vía courrier, aérea, marítima (LCL/FCL) y terrestre.' },
-        { titulo: 'Revisión de Cargas en Planta o Dependencias del Cliente', descripcion: 'Inspección física de tu mercancía para validar su estado, documentar posibles daños y activar seguros si es necesario.' },
-        { titulo: 'Tramitación Aduanera Experta', descripcion: 'Gestionamos la internación de tus mercancías cumpliendo todas las exigencias de aduana, para una liberación y entrega expedita.' },
-        { titulo: 'Transportes Internos (Post-Aduana)', descripcion: 'Servicio de traslado de tu carga desde puerto/aeropuerto a tu empresa y viceversa, una vez finalizada la tramitación aduanera.' }
+        { icono: 'bi bi-person-workspace' ,titulo: 'Asesorías en Logística y Comercio Internacional', descripcion: 'Te guiamos para tomar las mejores decisiones en el tránsito de tus productos, asegurando operaciones sin contratiempos y el éxito de tus negocios internacionales.' },
+        { icono: 'bi bi-receipt' ,titulo: 'Evaluación de Costos de Cargas: Nacionales e Internacionales', descripcion: 'Obtén una valorización precisa de costos y tiempos de tránsito para tus cargas nacionales e internacionales en 24-48 horas.' },
+        { icono: 'bi bi-clipboard-check' ,titulo: 'Gestión Integral de Importación y Exportación', descripcion: 'Ejecutamos tus operaciones de importación y exportación con tarifas competitivas para transporte de carga vía courrier, aérea, marítima (LCL/FCL) y terrestre.' },
+        { icono: 'bi bi-list-check' ,titulo: 'Revisión de Cargas en Planta o Dependencias del Cliente', descripcion: 'Inspección física de tu mercancía para validar su estado, documentar posibles daños y activar seguros si es necesario.' },
+        { icono: 'bi bi-archive' ,titulo: 'Tramitación Aduanera Experta', descripcion: 'Gestionamos la internación de tus mercancías cumpliendo todas las exigencias de aduana, para una liberación y entrega expedita.' },
+        { icono: 'bi bi-truck' ,titulo: 'Transportes Internos (Post-Aduana)', descripcion: 'Servicio de traslado de tu carga desde puerto/aeropuerto a tu empresa y viceversa, una vez finalizada la tramitación aduanera.' }
       ],
       serviciosCompletos: [],
       equipoTrabajo: [],
