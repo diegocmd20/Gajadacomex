@@ -1,5 +1,5 @@
 <template>
-  <section class="py-5" id="contacto">
+  <section class="py-5 orange-bg" id="contacto">
     <div class="container">
       <h2 class="mb-4 text-center">Contáctanos</h2>
       <div class="row">

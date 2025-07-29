@@ -7,8 +7,35 @@
 }
 
 .hero-section {
-    background-image: linear-gradient(rgba(50, 50, 50, 0.5), rgba(50, 50, 50, 0.5)),url(../hero.webp);
-    object-fit:cover;
-    padding: 5rem 0rem;
-    background-position: center;
+  background-image: linear-gradient(
+      rgba(50, 50, 50, 0.5),
+      rgba(50, 50, 50, 0.5)
+    ),
+    url(../hero.webp);
+  object-fit: cover;
+  padding: 5rem 0rem;
+  background-position: center;
+}
+
+.orange-bg {
+  background: radial-gradient(
+    circle,
+    rgba(20, 70, 141, 1) 0%,
+    rgba(229, 53, 22, 1) 100%
+  );
+  border-radius: 1.5rem;
+  padding: 2rem;
+  margin: 2rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.orange-bg:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.2);
+}
+
+.logo-footer {
+  width: 10rem;
+  height: auto;
 }
