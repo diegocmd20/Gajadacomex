@@ -4,11 +4,11 @@
       <h2 class="mb-4 text-center">Contáctanos</h2>
       <div class="row">
         <div class="col-md-6 text-start">
-          <h4 class="mb-2 fw-bold">Ubicación</h4>
+          <h4 class="mb-2">Ubicación</h4>
           <p>Luis Barros Borgoño 2630, Maipu</p>
-          <h4 class="mb-2 fw-bold">Email</h4>
+          <h4 class="mb-2">Email</h4>
           <p>info@gajadacomex.cl</p>
-          <h4 class="mb-2 fw-bold">Número de Contacto</h4>
+          <h4 class="mb-2">Número de Contacto</h4>
           <p>+56 9 7531 9891</p>
         </div>
         <div class="col-md-6">
